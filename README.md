@@ -30,4 +30,16 @@ cp .env.example .env
 ```
 This creates .env file in root folder and edit with all details fetched from Railway Postgres public domain. (postgresql://user:password@hostname:port/databasename)
 
----
+### 3. Build Docker Image
+```
+docker build -t etl-job ./etl
+```
+### 4. Run the ETL Job
+```
+docker run --env-file .env etl-job
+```
+### 5. Verify the Data
+Login to your PostgreSQL dashboard (Railway) and run:
+```
+Login to your PostgreSQL dashboard (e.g., Railway) and run:
+```
