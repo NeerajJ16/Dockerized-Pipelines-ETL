@@ -41,5 +41,6 @@ docker run --env-file .env etl-job
 ### 5. Verify the Data
 Login to your PostgreSQL dashboard (Railway) and run:
 ```
-Login to your PostgreSQL dashboard (e.g., Railway) and run:
+SELECT * FROM users;
+
 ```
