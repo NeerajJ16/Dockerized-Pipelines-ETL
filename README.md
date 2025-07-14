@@ -24,7 +24,6 @@ This project demonstrates a simple, containerized ETL (Extract, Transform, Load)
 git clone https://github.com/yourusername/docker-etl-project.git
 cd docker-etl-project
 ```
----
 ### 2. Create .env file
 ```
 cp .env.example .env
